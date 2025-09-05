@@ -15,7 +15,7 @@ public class StaffPanel extends JFrame {
 
     private final JComboBox<String> tableCombo = new JComboBox<>();
     private final JButton loadBtn = new JButton("Load");
-    private final JButton addAvailBtn = new JButton("Add availability"); // NEW
+    private final JButton addAvailBtn = new JButton("Add availability");
     private final JTable table = new JTable();
     private final JLabel welcome = new JLabel("", SwingConstants.LEFT);
 
